@@ -1,0 +1,59 @@
+﻿:root {
+    /*--azul-Principal: #0E185F;*/ /* #09143F */
+    /*--azul-Secundario: #2FA4FF;*/ /* #12339A */
+    /*--azul-Terciario: #5ee6eb;*/ /* 274CB7 */
+    /*--amarillo-Principal: #F2FA5A;*/ /* FFC42A */
+
+    --azul-Principal: #09143F;
+    --azul-Secundario: #12339A;
+    --azul-Terciario: #274CB7;
+    --amarillo-Principal: #FFC42A;
+    --gris-Oscuro: #262d3f;
+    --gris-Claro: #f5f5f7;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+
+.titulo_Tabla {
+    display: flex;
+    justify-content: center;
+    background-color: var(--amarillo-Principal);
+    color: var(--blanco);
+    font-family: raleway;
+    height: 35px !important;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.cuerpo_Tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-Terciario);
+    color: var(--blanco);
+    font-family: raleway;
+    height: auto;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blanco);
+    color: var(--negro);
+    font-family: raleway;
+    height: auto;
+}
+
+.pie_tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-Principal);
+    color: var(--blanco);
+    font-family: neometric;
+    height: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+}
